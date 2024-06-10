@@ -4,7 +4,7 @@
     <van-tabbar-item replace :to="{ name: 'category' }" icon="apps-o">商品分类</van-tabbar-item>
     <van-tabbar-item replace :to="{ name: 'message' }" icon="chat-o" badge="4">用户消息</van-tabbar-item>
     <van-tabbar-item replace :to="{ name: 'cart' }" icon="shopping-cart-o" :badge="cartCount()">购物车</van-tabbar-item>
-    <van-tabbar-item replace :to="{ name: 'user' }" icon="user-o">个人中心</van-tabbar-item>
+    <van-tabbar-item replace :to="{ name: 'user' }" icon="user-o">g</van-tabbar-item>
   </van-tabbar>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="home-top">
-    <h3>人气商品</h3>
+    <h3>r</h3>
     <div class="content">
       <van-card
         v-for="item in GoodsList"
@@ -21,7 +21,6 @@
 const GoodsList = [
   {
     retail_price: '299.00',
-    origin_price: '399.00',
     name: '蚕丝被 正品桑蚕丝',
     goods_brief: '一级桑蚕丝，轻盈、透气、柔软',
     list_pic_url: '/images/top1.jpg',

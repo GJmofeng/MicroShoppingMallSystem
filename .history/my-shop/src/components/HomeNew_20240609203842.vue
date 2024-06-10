@@ -1,7 +1,7 @@
 <template>
   <div class="home-new">
     <div class="home-new-title">
-      <h3>上新商品</h3>
+      <h3>每周上新</h3>
     </div>
     <ul>
       <li v-for="item in newList" :key="item.id">
