@@ -2,7 +2,7 @@
   "apps": [{
     "name": "shop-backend",
     "script": "production.js",
-    "cwd": "D:/MicroShoppingMallSystem/shop-backend",
+    "cwd": "D:/MicroShoppingMallSystem\shop-backend",
     "exec_mode": "fork",
     "max_memory_restart": "1G",
     "autorestart": true,
