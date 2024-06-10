@@ -122,5 +122,5 @@ CREATE TABLE `vueshop_goods_album` (
 INSERT INTO `vueshop_goods_album` VALUES
 (1, 10, 'http://192.168.124.25:8092/static/image/goods/album/apple1.jpg'),
 (2, 10, 'http://192.168.124.25:8092/static/image/goods/album/apple2.jpg'),
-(3, 7, 'http://192.168.124.25:8092/static/image/goods/spinach.png'),
-(4, 7, 'http://192.168.124.25:8092/static/image/goods/spinach.png');
+(3, 7, 'static/image/goods/spinach.png'),
+(4, 7, 'static/image/goods/spinach.png');

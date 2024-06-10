@@ -49,7 +49,7 @@ INSERT INTO `vueshop_category` VALUES
 (1, '潮流女装', '', 0),
 (2, '羽绒服', 'http://192.168.124.25:8092/static/image/category/clothes/jackets.png', 1),
 (3, '毛呢大衣', 'http://192.168.124.25:8092/static/image/category/clothes/overcoat.jpg', 1),
-(4, '连衣裙', 'http://192.168.124.25:8092/static/image/category/clothes/dress.png', 1),
+(4, '连衣裙', 'static/image/category/clothes/dress.png', 1),
 (5, '食品', '', 0),
 (6, '休闲零食', 'http://192.168.124.25:8092/static/image/category/foods/biscuit.jpg', 5),
 (7, '生鲜果蔬', 'http://192.168.124.25:8092/static/image/category/foods/tomato.jpg', 5),
@@ -69,16 +69,16 @@ INSERT INTO `vueshop_category` VALUES
 (21, '手机数码', '', 0),
 (22, '手机', 'http://192.168.124.25:8092/static/image/category/phone/phone.png', 21),
 (23, '笔记本', 'http://192.168.124.25:8092/static/image/category/phone/computer.png', 21),
-(24, '数码配件', 'http://192.168.124.25:8092/static/image/category/phone/headset.png', 21),
-(25, '平板', 'http://192.168.124.25:8092/static/image/category/phone/flat.png', 21),
-(26, '相机', 'http://192.168.124.25:8092/static/image/category/phone/camera.png', 21), 
+(24, '数码配件', 'static/image/category/phone/headset.png', 21),
+(25, '平板', 'static/image/category/phone/flat.png', 21),
+(26, '相机', 'static/image/category/phone/camera.png', 21), 
 (27, '户外运动', '', 0),
-(28, '运动鞋', 'http://192.168.124.25:8092/static/image/category/motion/shoes.jpg', 27),
-(29, '球类运动', 'http://192.168.124.25:8092/static/image/category/motion/ball.png', 27),
-(30, '垂钓用品', 'http://192.168.124.25:8092/static/image/category/motion/fishingrod.png', 27),
-(31, '运动服', 'http://192.168.124.25:8092/static/image/category/motion/clothes.png', 27),
-(32, '骑行装备', 'http://192.168.124.25:8092/static/image/category/motion/bicycle.png', 27),
-(33, '电动车', 'http://192.168.124.25:8092/static/image/category/motion/vehicle.png', 27);
+(28, '运动鞋', 'static/image/category/motion/shoes.jpg', 27),
+(29, '球类运动', 'static/image/category/motion/ball.png', 27),
+(30, '垂钓用品', 'static/image/category/motion/fishingrod.png', 27),
+(31, '运动服', 'static/image/category/motion/clothes.png', 27),
+(32, '骑行装备', 'static/image/category/motion/bicycle.png', 27),
+(33, '电动车', 'static/image/category/motion/vehicle.png', 27);
 
 
 # 商品表
@@ -96,16 +96,16 @@ CREATE TABLE `vueshop_goods` (
 
 
 INSERT INTO `vueshop_goods` VALUES
-(1, 7, '葡萄柚', 10.00, 'http://192.168.124.25:8092/static/image/goods/grapefruit.png', 10, '大果 300g','葡萄柚含有丰富的蛋白质、维生素、叶酸、无机盐、纤维素等等。'),
-(2, 7, '葡萄', 10.00, 'http://192.168.124.25:8092/static/image/goods/grape.png', 20, '一级果（净重4.5斤）','葡萄含有大量的维生素C，丰富的矿物质，日常食用，可以抗氧化、起到美容养颜的作用，并且还能提高机体抵抗力、辅助降血压、降血糖、预防心脑血管疾病。'),
-(3, 7, '西红柿', 3.00, 'http://192.168.124.25:8092/static/image/goods/tomatoes.png', 20, '5斤装','西红柿属于常见的水果，不仅美味，还营养丰富，具有美容养颜、保护视力等功效。'),
-(4, 7, '生菜', 6.00, 'http://192.168.124.25:8092/static/image/goods/lettuce.png', 20, '1斤装','生菜可生食，脆嫩爽口，略甜，具有改善睡眠、减肥瘦身、保护视力等功效。'),
-(5, 7, '菠菜', 4.00, 'http://192.168.124.25:8092/static/image/goods/spinach.png', 50, '1斤装','菠菜富含类胡萝卜素、维生素C、维生素K，具有保护视力、美容养颜、缓解贫血、通肠导便的功效。'),
-(6, 7, '脐橙', 8.00, 'http://192.168.124.25:8092/static/image/goods/orange.png', 50, '1斤装', '赣南脐橙，江西省赣州市特产，中国国家地理标志产品。'),
-(7, 7, '香菇', 8.00, 'http://192.168.124.25:8092/static/image/goods/mushroom.jpg', 500, '1斤装','香菇肉质肥厚细嫩，味道鲜美，香气独特，营养丰富，是一种食药同源的食物，具有很高的营养、药用和保健价值。'),
-(8, 7, '进口香蕉', 2.00, 'http://192.168.124.25:8092/static/image/goods/banana.jpeg', 60, '约250g，2根','香蕉为芭蕉科植物甘蕉的果实，果肉香甜，除可生食外，还可制成多种加工品。'),
-(9, 7, '陕西蜜梨', 6.90, 'http://192.168.124.25:8092/static/image/goods/pear.jpeg', 30, '约600g','梨味美汁多、甜中带酸，而且营养丰富，含有多种维生素、纤维素等，既能生吃，也可以煮水或煲汤后食用。'),
-(10, 7, '加力果', 26.80, 'http://192.168.124.25:8092/static/image/goods/apple.jpeg', 19, '约680g/3个','<div>
+(1, 7, '葡萄柚', 10.00, 'static/image/goods/grapefruit.png', 10, '大果 300g','葡萄柚含有丰富的蛋白质、维生素、叶酸、无机盐、纤维素等等。'),
+(2, 7, '葡萄', 10.00, 'static/image/goods/grape.png', 20, '一级果（净重4.5斤）','葡萄含有大量的维生素C，丰富的矿物质，日常食用，可以抗氧化、起到美容养颜的作用，并且还能提高机体抵抗力、辅助降血压、降血糖、预防心脑血管疾病。'),
+(3, 7, '西红柿', 3.00, 'static/image/goods/tomatoes.png', 20, '5斤装','西红柿属于常见的水果，不仅美味，还营养丰富，具有美容养颜、保护视力等功效。'),
+(4, 7, '生菜', 6.00, 'static/image/goods/lettuce.png', 20, '1斤装','生菜可生食，脆嫩爽口，略甜，具有改善睡眠、减肥瘦身、保护视力等功效。'),
+(5, 7, '菠菜', 4.00, 'static/image/goods/spinach.png', 50, '1斤装','菠菜富含类胡萝卜素、维生素C、维生素K，具有保护视力、美容养颜、缓解贫血、通肠导便的功效。'),
+(6, 7, '脐橙', 8.00, 'static/image/goods/orange.png', 50, '1斤装', '赣南脐橙，江西省赣州市特产，中国国家地理标志产品。'),
+(7, 7, '香菇', 8.00, 'static/image/goods/mushroom.jpg', 500, '1斤装','香菇肉质肥厚细嫩，味道鲜美，香气独特，营养丰富，是一种食药同源的食物，具有很高的营养、药用和保健价值。'),
+(8, 7, '进口香蕉', 2.00, 'static/image/goods/banana.jpeg', 60, '约250g，2根','香蕉为芭蕉科植物甘蕉的果实，果肉香甜，除可生食外，还可制成多种加工品。'),
+(9, 7, '陕西蜜梨', 6.90, 'static/image/goods/pear.jpeg', 30, '约600g','梨味美汁多、甜中带酸，而且营养丰富，含有多种维生素、纤维素等，既能生吃，也可以煮水或煲汤后食用。'),
+(10, 7, '加力果', 26.80, 'static/image/goods/apple.jpeg', 19, '约680g/3个','<div>
 <div>加力果属于苹果的一种，只是普通水果，功效主要是提供营养物质。另外加力果富含膳食纤维，还具有预防和改善便秘的作用。</div>
 <div><img src="http://192.168.124.25:8092/static/image/goods/detail/apple1.jpg" alt="商品详情1" width="1280" height="1982"><img src="http://192.168.124.25:8092/static/image/goods/detail/apple2.jpg" alt="商品详情2" width="1280" height="1712"><img src="http://192.168.124.25:8092/static/image/goods/detail/apple3.jpg" alt="商品详情3" width="1280" height="1982"></div>
 </div>');
@@ -120,7 +120,7 @@ CREATE TABLE `vueshop_goods_album` (
 ) ENGINE=InnoDB CHARSET=utf8mb4;
 
 INSERT INTO `vueshop_goods_album` VALUES
-(1, 10, 'http://192.168.124.25:8092/static/image/goods/album/apple1.jpg'),
-(2, 10, 'http://192.168.124.25:8092/static/image/goods/album/apple2.jpg'),
-(3, 7, 'http://192.168.124.25:8092/static/image/goods/spinach.png'),
-(4, 7, 'http://192.168.124.25:8092/static/image/goods/spinach.png');
+(1, 10, 'static/image/goods/album/apple1.jpg'),
+(2, 10, 'static/image/goods/album/apple2.jpg'),
+(3, 7, 'static/image/goods/spinach.png'),
+(4, 7, 'static/image/goods/spinach.png');
