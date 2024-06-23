@@ -2,6 +2,7 @@ const Base = require('./base.js');
 
 module.exports = class extends Base {
   
+  
   // 不检查登录
   _isCheckLogin() {
     return false;
